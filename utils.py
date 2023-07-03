@@ -384,8 +384,8 @@ async def get_shortlink(link):
         link = link.replace("http", https)
 
     url = f'https://clicksfly.com'
-    params = {'token': URL_SHORTNER_WEBSITE_API,
-              'link': link,
+    params = {'f0cc2ae4af29f09c400dde1d49673aea5f879f89': URL_SHORTNER_WEBSITE_API,
+              'clicksfly.com': link,
               'format': 'json'
               }
 
