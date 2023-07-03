@@ -397,7 +397,7 @@ async def get_shortlink(link):
                     return data['shortlink']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://api.clicksfly.com/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link
+                    return f'https://api.clicksfly.com/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}
     except Exception as e:
         logger.error(e)
         return f'https://api.clicksfly.com/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
